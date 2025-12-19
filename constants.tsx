@@ -19,6 +19,29 @@ export const PROFILE: ProfileData = {
   }
 };
 
+export const BENEFITS = [
+  {
+    title: "Cinematic Product Vision",
+    description: "I don't just build interfaces; I create digital experiences with the precision and storytelling of editorial design.",
+    icon: (props: any) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m2 12 10-9 10 9-10 9-10-9Z"/><path d="m12 3 1.5 6h5l-4 3.5 1.5 6-4-3.5-4 3.5 1.5-6-4-3.5h5L12 3z"/></svg>
+  },
+  {
+    title: "Engineering Excellence",
+    description: "Deep expertise in modern frameworks ensures that the high-end visuals are matched by robust, scalable code.",
+    icon: (props: any) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+  },
+  {
+    title: "Strategic Growth",
+    description: "As a founder, I understand the intersection of technology and business, ensuring every pixel serves a purpose.",
+    icon: (props: any) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+  },
+  {
+    title: "Rapid Execution",
+    description: "I prioritize speed without sacrificing quality, moving from concept to high-fidelity prototype in record time.",
+    icon: (props: any) => <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m13 2-2 10h8l-2 10"/><path d="m13 2-9 10h8l-2 10"/></svg>
+  }
+];
+
 export const LIFE_IMAGES = [
   { url: "https://rizkydaffy.github.io/cdn/tentang.jpg", alt: "European architecture" },
   { url: "https://rizkydaffy.github.io/cdn/2025-11-30-08-46-13-008.jpg?raw=true", alt: "Coding setup" },
