@@ -24,6 +24,11 @@ const App: React.FC = () => {
           <section id="life" className="scroll-mt-32">
             <LifeSection />
           </section>
+
+          {/* Benefit Section */}
+          <section id="benefits" className="scroll-mt-32">
+            <BenefitSection />
+          </section>
         </div>
 
         {/* Contact Section / Footer */}
