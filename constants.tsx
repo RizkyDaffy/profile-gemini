@@ -51,6 +51,57 @@ export const LIFE_IMAGES = [
   { url: "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?q=80&w=1000&auto=format&fit=crop", alt: "Classic urban facade" },
 ];
 
+export const TOOLS = [
+  { name: 'Android', icon: 'https://cdn.simpleicons.org/android/A4C639' },
+  { name: 'AWS', icon: 'https://cdn.simpleicons.org/amazonaws/232F3E' },
+  { name: 'Azure', icon: 'https://cdn.simpleicons.org/microsoftazure/0078D4' },
+  { name: 'Bootstrap', icon: 'https://cdn.simpleicons.org/bootstrap/7952B3' },
+  { name: 'CSS3', icon: 'https://cdn.simpleicons.org/css3/1572B6' },
+  { name: 'Docker', icon: 'https://cdn.simpleicons.org/docker/2496ED' },
+  { name: 'Figma', icon: 'https://cdn.simpleicons.org/figma/F24E1E' },
+  { name: 'Firebase', icon: 'https://cdn.simpleicons.org/firebase/FFCA28' },
+  { name: 'Flutter', icon: 'https://cdn.simpleicons.org/flutter/02569B' },
+  { name: 'Google Cloud', icon: 'https://cdn.simpleicons.org/googlecloud/4285F4' },
+  { name: 'Ionic', icon: 'https://cdn.simpleicons.org/ionic/3880FF' },
+  { name: 'Java', icon: 'https://cdn.simpleicons.org/openjdk/FF0000' },
+  { name: 'JavaScript', icon: 'https://cdn.simpleicons.org/javascript/F7DF1E' },
+  { name: 'Kotlin', icon: 'https://cdn.simpleicons.org/kotlin/7F52FF' },
+  { name: 'MySQL', icon: 'https://cdn.simpleicons.org/mysql/4479A1' },
+  { name: 'Next.js', icon: 'https://cdn.simpleicons.org/nextdotjs/000000' },
+  { name: 'Nginx', icon: 'https://cdn.simpleicons.org/nginx/009639' },
+  { name: 'Node.js', icon: 'https://cdn.simpleicons.org/nodedotjs/339933' },
+  { name: 'Oracle', icon: 'https://cdn.simpleicons.org/oracle/F80000' },
+  { name: 'PHP', icon: 'https://cdn.simpleicons.org/php/777BB4' },
+  { name: 'Python', icon: 'https://cdn.simpleicons.org/python/3776AB' },
+  { name: 'React', icon: 'https://cdn.simpleicons.org/react/61DAFB' },
+  { name: 'Tailwind CSS', icon: 'https://cdn.simpleicons.org/tailwindcss/06B6D4' },
+  { name: 'TypeScript', icon: 'https://cdn.simpleicons.org/typescript/3178C6' },
+];
+
+export const WORKS = [
+  {
+    title: "SyntaxHunt",
+    subtitle: "#1 code bounty on south east asia",
+    description: "#1 code bounty on south east asia",
+    imageUrl: "https://github.com/RizkyDaffy/rizkydaffy.github.io/blob/main/cdn/syntax.png?raw=true",
+    cta: "see projects"
+  },
+  {
+    title: "School Managament System",
+    subtitle: "Manage your school administration data on second",
+    description: "Detailed breakdown of the digital illustration process.",
+    imageUrl: "https://github.com/RizkyDaffy/rizkydaffy.github.io/blob/main/cdn/crud.jpg?raw=true",
+    cta: "see projects"
+  },
+  {
+    title: "Better Youtube Music",
+    subtitle: "Youtube Music but on Apple Music style",
+    description: "Refining the foundations of character design through ink.",
+    imageUrl: "https://github.com/RizkyDaffy/rizkydaffy.github.io/blob/main/cdn/yt.jpg?raw=true",
+    cta: "see projects"
+  }
+];
+
 export const Icons = {
   Email: (props: React.SVGProps<SVGSVGElement>) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
