@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import ProfileCard from './components/ProfileCard';
 import SocialIcons from './components/SocialIcons';
 import LifeSection from './components/LifeSection';
+import BenefitSection from './components/BenefitSection';
 
 const App: React.FC = () => {
   return (
