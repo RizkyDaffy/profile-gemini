@@ -5,6 +5,9 @@ import ProfileCard from './components/ProfileCard';
 import SocialIcons from './components/SocialIcons';
 import LifeSection from './components/LifeSection';
 import BenefitSection from './components/BenefitSection';
+import SelectedWorks from './components/SelectedWorks';
+import LanguagesAndTools from './components/LanguagesAndTools';
+
 
 const App: React.FC = () => {
   return (
@@ -30,6 +33,17 @@ const App: React.FC = () => {
           <section id="benefits" className="scroll-mt-32">
             <BenefitSection />
           </section>
+
+          {/* Selected Works Section - Moved after Life */}
+          <section id="work" className="scroll-mt-32">
+            <SelectedWorks />
+          </section>
+
+           {/* Languages and Tools Section - Moved after Work */}
+          <section id="skills" className="scroll-mt-32">
+            <LanguagesAndTools />
+          </section>
+
         </div>
 
         {/* Contact Section / Footer */}
