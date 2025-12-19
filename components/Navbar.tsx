@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
             className="text-2xl md:text-3xl font-bold tracking-tight text-zinc-900 cursor-pointer whitespace-nowrap"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            Achraf Razzouqi
+            Rizky Daffy
           </span>
         </motion.div>
 
