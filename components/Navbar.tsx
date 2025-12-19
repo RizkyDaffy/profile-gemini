@@ -20,9 +20,11 @@ const Navbar: React.FC = () => {
   };
 
   const navItems = [
-    { label: 'Benefits', id: 'about' },
-    { label: 'life galery', id: 'life' },
-    { label: 'Contact Us', id: 'contact' },
+    { label: 'Life', id: 'life' },
+    { label: 'Work', id: 'work' },
+    { label: 'Skills', id: 'skills' },
+    { label: 'Benefits', id: 'benefits' },
+    { label: 'Contact', id: 'contact' },
   ];
 
   return (
@@ -43,7 +45,7 @@ const Navbar: React.FC = () => {
             className="text-2xl md:text-3xl font-bold tracking-tight text-zinc-900 cursor-pointer whitespace-nowrap"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            Rizky Daffy
+            Achraf Razzouqi
           </span>
         </motion.div>
 
@@ -56,13 +58,13 @@ const Navbar: React.FC = () => {
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="pointer-events-auto flex items-center gap-6 md:gap-12 px-8 py-3.5 md:px-12 md:py-4 bg-zinc-200/40 backdrop-blur-2xl border border-white/40 shadow-xl shadow-black/[0.05] rounded-full ring-1 ring-black/[0.02]"
+            className="pointer-events-auto flex items-center gap-5 md:gap-10 px-8 py-3.5 md:px-10 md:py-4 bg-white/70 backdrop-blur-2xl border border-white/40 shadow-xl shadow-black/[0.05] rounded-full ring-1 ring-black/[0.02]"
           >
             {navItems.map((item) => (
               <button
                 key={item.label}
                 onClick={() => scrollTo(item.id)}
-                className="text-[11px] md:text-sm font-bold text-zinc-900 hover:text-blue-600 transition-colors whitespace-nowrap tracking-wide"
+                className="text-[10px] md:text-xs font-black text-zinc-900 hover:text-blue-600 transition-colors whitespace-nowrap tracking-widest uppercase"
               >
                 {item.label}
               </button>
