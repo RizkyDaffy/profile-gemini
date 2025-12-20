@@ -46,7 +46,7 @@ export const LIFE_IMAGES = [
   { url: "https://rizkydaffy.github.io/cdn/tentang.jpg", alt: "European architecture" },
   { url: "https://rizkydaffy.github.io/cdn/2025-11-30-08-46-13-008.jpg?raw=true", alt: "Coding setup" },
   { url: "https://rizkydaffy.github.io/cdn/2025-11-30-07-11-03-431.jpg?raw=true", alt: "City street at night" },
-  { url: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1000&auto=format&fit=crop", alt: "Breakfast in Barcelona" },
+  { url: "https://github.com/RizkyDaffy/rizkydaffy.github.io/blob/main/cdn/IMG-20240821-WA0082.jpg?raw=true", alt: "Breakfast in Barcelona" },
   { url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop", alt: "Modern building detail" },
   { url: "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?q=80&w=1000&auto=format&fit=crop", alt: "Classic urban facade" },
 ];
